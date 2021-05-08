@@ -1,0 +1,99 @@
+html {
+  background-color: #282c34;
+}
+
+img {
+  border-radius: 6px;
+}
+
+.header {
+  background-color: #1b1c22;
+  padding: 20px;
+  display: flex;
+}
+
+.header .title {
+  font: 42px;
+  color: rgb(255, 139, 255);
+  margin: 0% 0% 0% 18%;
+  flex: 1;
+}
+
+.header .userInfo {
+  color: gray;
+  flex: 1;
+  height: 20px;
+  text-align: right;
+  margin: auto 18% auto 0%;
+}
+
+.search-bar {
+  margin: 80px 18%;
+}
+
+
+
+
+.display {
+  margin: 2.5% 20%;
+}
+
+.poster {
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.info_pannel h1 {
+  font-size: xx-large;
+  color: gray;
+  margin-bottom: 20px;
+}
+
+.country {
+  font-size: 24px;
+  color: gray;
+  border: 1px solid rgb(255, 139, 255);
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.country h2 {
+  color: gray;
+  margin-bottom: 10px;
+}
+
+
+
+.login-component {
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+  margin-top: 10%;
+  border: 1px solid gray;
+  border-radius: 12px;
+  padding: 20px;
+  color: gray;
+}
+
+.login-component h1 {
+  font-size: xx-large;
+  color: gray;
+  text-align: center;
+  margin: 0px 0px 20px 0px;
+}
+
+.login-component h2 {
+  margin-bottom: 5px;
+  font-size: 24px;
+}
+
+.login-component input {
+  margin-bottom: 20px;
+}
+
+.login-component .button{
+  margin: 20px 0px 0px 0px;
+}
