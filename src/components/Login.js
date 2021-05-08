@@ -44,7 +44,7 @@ export default function Login() {
                 </form>
                 
             </div>
-            <h3 style={{ textAlign: "center", marginTop: "10px" }}>Don't have an accout? Sign up <Link to="/signup">here</Link></h3>
+            <h3 style={{ textAlign: "center", marginTop: "10px", color: "gray" }}>Don't have an accout? Sign up <Link to="/signup">here</Link></h3>
         </div>
     );
 }

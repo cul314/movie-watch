@@ -53,7 +53,7 @@ export default function Signup() {
                 </form>
                 
             </div>
-            <h3 style={{ textAlign: "center", marginTop: "10px" }}>Already have an accout? Sign in <Link to="/login">here</Link></h3>
+            <h3 style={{ textAlign: "center", marginTop: "10px", color: "gray" }}>Already have an accout? Sign in <Link to="/login">here</Link></h3>
         </div>
     );
 }
