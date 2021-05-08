@@ -9,28 +9,27 @@ img {
 .header {
   background-color: #1b1c22;
   padding: 20px;
-  display: flex;
+}
+
+.inside-header {
+  margin: 0% 18%;
 }
 
 .header .title {
   font: 42px;
   color: rgb(255, 139, 255);
-  margin: 0% 0% 0% 18%;
-  flex: 1;
 }
 
 .header .userInfo {
   color: gray;
-  flex: 1;
   height: 20px;
   text-align: right;
-  margin: auto 18% auto 0%;
+  padding: 5px 0px;
 }
 
 .search-bar {
   margin: 80px 18%;
 }
-
 
 
 

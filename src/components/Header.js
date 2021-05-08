@@ -30,10 +30,18 @@ export default function Header() {
 
     return (
         <div className="header">
-            <div className="title">
-                <h1>Where to Watch</h1>
+            <div className="inside-header">
+                <div className="columns">
+                    <div className="column">
+                        <div className="title">
+                            <h1>Where to Watch</h1>
+                        </div>
+                    </div>
+                    <div className="column">
+                        {userInfo}
+                    </div>
+                </div>
             </div>
-            {userInfo}
         </div>
     );
 }
